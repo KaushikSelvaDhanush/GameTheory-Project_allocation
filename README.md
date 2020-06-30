@@ -10,12 +10,14 @@ The “Introduction to Game Theory” course has attracted a large number of stu
 The distribution of the topics to all the students was done by creating a google sheet. Where students can propose a topic of their own and try to gather students interested in their topic. Once number of students in a topic was between 3-5, they formed a group. If there is a team of 2 students who are interested in one topic, they would be forcefully be put in other random topic, which may or may not be there topic of preference. Thus, this will lead to formation of unstable groups.
 Lack of communication with the fellow students made the matching problem complicated. A student was not able to make preference for the topics he/she wanted to work on. 
 
+# Video
+The video is an example of the 2 sided problem. It can be viewed in :https://app.animaker.com/video?e=ESX4K158OI927CL7
+
 # In the Code
 ## Group Formation - Topic Preference
 
-In this code an input file of the list of class students is given with top 3 preferences with the topic that they would like to work on. The code tries to form group with the top preferences. If this is not acheived then it checks for 2nd preference.\
+In this code an input file of the list of class students is given with top 3 preferences with the topic that they would like to work on. The code tries to form group with the top preferences. If this is not acheived then it checks for 2nd preference. Groups are tried to form by adding a student with second preference that can fulfil a Teamless of 2 students in their 1st preference. This is just an initial try and needs more work
 
-need to write more
 
 ## Splitting groups
 
